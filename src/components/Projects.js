@@ -45,10 +45,10 @@ const Projects = () => {
         },
         {
             id: 4,
-            title: "DFS",
+            title: "Develop For Good",
             image: makeCents,
-            shortDescription: "Depth-first search visualization",
-            fullDescription: "DFS is an educational tool that visualizes the depth-first search algorithm in action. Users can create custom graphs and watch how the algorithm traverses them. Built with React and D3.js, it provides an interactive way to understand this fundamental computer science concept.",
+            shortDescription: "DFG - Make Cents Foundation",
+            fullDescription: "Develop For Good is a nonprofit organization with volunteer students aspiring to create software applications for other nonprofits. This team worked with the Make Cents Foundation, a Georgia-based nonprofit focused on financial literacy for the youth. React Native, Firebase authentication, and data storage were used in this project.",
             videoLink: "https://developforgood.notion.site/The-Make-Cents-Foundation-Developing-a-Gamified-Financial-Literacy-Application-19cfbe7117c0805e83ead7ad1e1b37e4",
             GitHub: "https://github.com/developforgood/the-make-cents-foundation",
         }
