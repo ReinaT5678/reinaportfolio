@@ -39,7 +39,7 @@ const Projects = () => {
             title: "AWS Rekognition",
             image: AWS, 
             shortDescription: "Image analysis tool using AWS",
-            fullDescription: "This project leverages AWS Rekognition to analyze images and extract meaningful information. It can detect objects, faces, text, and inappropriate content. The frontend is built with React Native, Expo, and TypeScript. The backend uses Flask-based Python program. The AWS S3 and AWS Rekognition were used as cloud services and Base64 + JSON were used for Data Processing.",
+            fullDescription: "This project leverages AWS Rekognition to analyze images and extract meaningful information. It can detect objects, faces, and text. The frontend is built with React Native, Expo, and TypeScript. The backend uses Flask-based Python program. The AWS S3 and AWS Rekognition were used as cloud services and Base64 + JSON were used for Data Processing.",
             videoLink: "https://youtu.be/vekPjz6XQeQ",
             Github: "https://github.com/ReinaT5678/AWS-Label-Detector"
         },
