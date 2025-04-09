@@ -4,6 +4,7 @@ import wanderfulImage from '../images/Wanderful.png';
 import flipImage from '../images/Flip.png';
 import makeCents from '../images/MakeCents.png';
 import AWS from '../images/AWS.png';
+import FoodFilter from '../images/FoodFilter.png';
 
 const Projects = () => {
     const ref = useRef(null);
@@ -12,7 +13,6 @@ const Projects = () => {
         triggerOnce: true
     });
 
-    // State to track which project is expanded (null means none are expanded)
     const [expandedProject, setExpandedProject] = useState(null);
 
     // Project data
@@ -51,6 +51,15 @@ const Projects = () => {
             fullDescription: "Develop For Good is a nonprofit organization with volunteer students aspiring to create software applications for other nonprofits. This team worked with the Make Cents Foundation, a Georgia-based nonprofit focused on financial literacy for the youth. React Native, Firebase authentication, and data storage were used in this project.",
             videoLink: "https://developforgood.notion.site/The-Make-Cents-Foundation-Developing-a-Gamified-Financial-Literacy-Application-19cfbe7117c0805e83ead7ad1e1b37e4",
             GitHub: "https://github.com/developforgood/the-make-cents-foundation",
+        },
+        {
+            id: 5,
+            title: "Food Filter",
+            image: FoodFilter,
+            shortDescription: "Food Filter",
+            fullDescription: "Created a app in a group of 4 to use Gemini AI to produce a simplified version of a recipe website. Usually, a recipe site has a bunch of fluff and extra information. This web application takes the URL, passes it as a prompt into Gemini, and extracts the ingredients, steps, and calculates the nutrients. It also generates a image based on the recipe. We also made a google extension linking to the webpage. I did the Google Extension, assisted with the Gemini AI, styling, and deployment.",
+            videoLink: "https://www.youtube.com/watch?v=_m5MhzQx_dU",
+            GitHub: "https://github.com/abobich675/FoodFilter",
         }
     ];
 
