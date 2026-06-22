@@ -1,17 +1,23 @@
+:root {
+  --background-color: #ccd5ae;
+  --text-color: #fefae0;
+  --nav-color: #d4a373;
+  --primary-color: #e9edc9;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #F3F6F0;
+  background-color: var(--background-color);
   font-family: 'Courier New', Courier, monospace; 
   margin: 0; 
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.jpeg");
   background-size: cover;
 }
 
 .nav-bar {
-  background-color: #3a432d;
+  background-color: var(--nav-color);
   position: relative;
 }
 

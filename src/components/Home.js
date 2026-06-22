@@ -25,7 +25,7 @@ const Home = () => {
                 initial={{filter: 'blur(10px)'}}
                 animate={{filter: 'blur(0px)'}}
                 transition={{duration: 0.5}}
-                style={{backgroundImage: 'url(../images/about-background.jpg)'}}
+                
             >
                 <div className='home-container'>
                     <div className="welcome"> 
