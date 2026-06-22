@@ -1,54 +1,44 @@
-import {React, useEffect} from 'react';
-import {useNavigate} from 'react-router-dom';
-import {motion } from 'framer-motion';
+import { React } from 'react';
+import { motion } from 'framer-motion';
 import me1 from '../images/me1.jpeg';
 import me2 from '../images/me2.jpeg';
 import me3 from '../images/me3.jpg';
 
 const Home = () => {
-    const navigate = useNavigate();
-    
-    const handleScroll = () => {
-        const bottom = Math.ceil(window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight;
-        if (bottom) {
-            navigate('/about');
-        }
-    };
-
-    useEffect(()=> {
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
     return (
-        <>
-            <motion.div
-                initial={{filter: 'blur(10px)'}}
-                animate={{filter: 'blur(0px)'}}
-                transition={{duration: 0.5}}
-                
-            >
-                <div className='home-container'>
-                    <div className="welcome"> 
-                        <h1>Aloha,<br></br> I'm Reina <br></br>Takahara</h1>
-                        <h2>Full Stack Developer</h2>
-                    </div>
-                    <div className="polaroid-container">
-                        <div className="polaroid fade-in-1">
-                            <img src={me1} alt="Polaroid 1"/>
-                            <div className="caption">December 19, 2024</div>
-                        </div>
-                        <div className="polaroid fade-in-2">
-                            <img src={me2} alt="Polaroid 2"/>
-                            <div className="caption">August 28, 2024</div>
-                        </div>
-                        <div className="polaroid fade-in-3">
-                            <img src={me3} alt="Polaroid 3"/>
-                            <div className="caption">May 20, 2024</div>
-                        </div>
+        <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: 'easeOut' }}
+        >
+            <div className="home-container">
+                <div className="animation-stage" aria-label="Portrait animation area">
+                    <div className="animation-frame" />
+                </div>
+
+                <div className="welcome">
+                    <p className="eyebrow">Full Stack Developer</p>
+                    <h1>Aloha, I'm Reina Takahara</h1>
+                    <h2>I like building SaaS and cloud related applications!</h2>
+                    <div className="hero-actions">
+                        <a href="#projects" className="primary-action">View Projects</a>
+                        <a href="#about" className="secondary-action">About Me</a>
                     </div>
                 </div>
-            </motion.div>
-        </>
+
+                <div className="polaroid-container">
+                    <div className="polaroid fade-in-1">
+                        <img src={me1} alt="Reina smiling outdoors"/>
+                    </div>
+                    <div className="polaroid fade-in-2">
+                        <img src={me2} alt="Reina portrait"/>
+                    </div>
+                    <div className="polaroid fade-in-3">
+                        <img src={me3} alt="Reina smiling"/>
+                    </div>
+                </div>
+            </div>
+        </motion.div>
     );
 }
 

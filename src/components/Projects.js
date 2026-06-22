@@ -113,7 +113,7 @@ const Projects = () => {
                                         {project.videoLink && (
                                             <a href={project.videoLink} className="project-link">View Demo</a>
                                         )}
-                                        <a href={project.GitHub} className="project-link">GitHub</a>
+                                        <a href={project.GitHub || project.Github} className="project-link">GitHub</a>
                                     </div>
                                 </motion.div>
                             )}

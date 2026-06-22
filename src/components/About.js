@@ -20,9 +20,7 @@ const About = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <h2>My background</h2>
-                    <p>I was born and raised on Oahu, Hawaii and I’m currently a Computer Science major at Oregon State University with a focus in web and app development. As an aspiring full stack developer, I’m also deeply interested in cybersecurity, particularly in web security. I’ve had the opportunity to gain hands-on experience through multiple internships in both cybersecurity and full-stack development, along with working on numerous projects throughout my studies. 
-
-Aside from coding, I have a big passion for music- I love to play the guitar and sing! Fun fact: I’m a part of an acapella club at my school!</p>
+                    <p>I was born and raised on Oahu, Hawaii and I’m currently a Computer Science major at Oregon State University with a focus in web and app development. As an aspiring full stack developer, I’m also deeply interested in cloud development. I received a cloud computing certification from the University of Maryland and passed the Azure-900 Fundamentals exam. </p>
                 </motion.div>
 
                 <motion.div
@@ -42,9 +40,9 @@ Aside from coding, I have a big passion for music- I love to play the guitar and
                     transition={{ duration: 0.8 }}
                 >
                     <h2>My Hobbies</h2>
-                    <p>I've been singing since I was eight years old and have participated in operas, theater performances, and recitals throughout my life. Alongside singing, I played the piano until college and also enjoy playing the ukulele and guitar. Beyond music, I’m a huge fan of Spinners and the Monopoly card game, and I love going on biking adventures.
+                    <p>I've been singing since I was eight years old and have participated in operas, theater performances, and recitals throughout my life. Alongside singing, I played the piano until college and also enjoy playing the ukulele and guitar.
 
-Check out my YouTube channel below—I love sharing singing covers of some of my favorite songs!</p>
+Check out my YouTube channel below!</p>
             <motion.a 
                 href="https://www.youtube.com/@mikhel782013" 
                 target="_blank" 
