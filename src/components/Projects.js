@@ -41,7 +41,7 @@ const Projects = () => {
             shortDescription: "Image analysis tool using AWS",
             fullDescription: "This project leverages AWS Rekognition to analyze images and extract meaningful information. It can detect objects, faces, and text. The frontend is built with React Native, Expo, and TypeScript. The backend uses Flask-based Python program. The AWS S3 and AWS Rekognition were used as cloud services and Base64 + JSON were used for Data Processing.",
             videoLink: "https://youtu.be/vekPjz6XQeQ",
-            Github: "https://github.com/ReinaT5678/AWS-Label-Detector"
+            GitHub: "https://github.com/ReinaT5678/AWS-Label-Detector"
         },
         {
             id: 4,
@@ -60,6 +60,14 @@ const Projects = () => {
             fullDescription: "Created a app in a group of 4 to use Gemini AI to produce a simplified version of a recipe website. Usually, a recipe site has a bunch of fluff and extra information. This web application takes the URL, passes it as a prompt into Gemini, and extracts the ingredients, steps, and calculates the nutrients. It also generates a image based on the recipe. We also made a google extension linking to the webpage. I did the Google Extension, assisted with the Gemini AI, styling, and deployment.",
             videoLink: "https://www.youtube.com/watch?v=_m5MhzQx_dU",
             GitHub: "https://github.com/abobich675/FoodFilter",
+        },
+        {
+            id: 6,
+            title: "book-hunt",
+            shortDescription: "A book search application",
+            fullDescription: "Book Hunt is a Flask-based web application that allows users to search for books, view details, and manage their reading lists. It integrates with the Open Library API to fetch book data and provides a user-friendly interface for book enthusiasts. The application was deployed through Azure App Service and uses Azure SQL Database for data storage.",
+            videoLink: "https://www.youtube.com/watch?v=MR5jVeJS-oo",
+            GitHub: "https://github.com/ReinaT5678/book-hunt"
         }
     ];
 
