@@ -15,8 +15,7 @@ const Projects = () => {
 
     const [expandedProject, setExpandedProject] = useState(null);
 
-    // Project data
-    const projects = [
+    const collegeProjects = [
         {
             id: 1,
             title: "Wanderful",
@@ -28,14 +27,41 @@ const Projects = () => {
         },
         {
             id: 2,
+            title: "Food Filter",
+            image: FoodFilter,
+            shortDescription: "Food Filter",
+            fullDescription: "Created a app in a group of 4 to use Gemini AI to produce a simplified version of a recipe website. Usually, a recipe site has a bunch of fluff and extra information. This web application takes the URL, passes it as a prompt into Gemini, and extracts the ingredients, steps, and calculates the nutrients. It also generates a image based on the recipe. We also made a google extension linking to the webpage. I did the Google Extension, assisted with the Gemini AI, styling, and deployment.",
+            videoLink: "https://www.youtube.com/watch?v=_m5MhzQx_dU",
+            GitHub: "https://github.com/abobich675/FoodFilter",
+        },
+    ]
+
+    const GISProjects = [
+        {
+            id: 1,
             title: "Flip Map App",
             image: flipImage, 
             shortDescription: "Interactive mapping solution",
             fullDescription: "Flip Map App is my senior project capstone dedicated to develop a navigation app on dumbphones. The final goal is to provide an efficient, lightweight, and accessible navigation solution for users who prefer or require a simpler mobile experience. We're currently using Kotlin, Rust, OpenGL, Docker, etc for this project.",
             GitHub: "https://github.com/anti-computer-club"
         },
+    ]
+
+    const volunteerProjects = [
         {
-            id: 3,
+            id: 1,
+            title: "Develop For Good",
+            image: makeCents,
+            shortDescription: "DFG - Make Cents Foundation",
+            fullDescription: "Develop For Good is a nonprofit organization with volunteer students aspiring to create software applications for other nonprofits. This team worked with the Make Cents Foundation, a Georgia-based nonprofit focused on financial literacy for the youth. React Native, Firebase authentication, and data storage were used in this project.",
+            videoLink: "https://developforgood.notion.site/The-Make-Cents-Foundation-Developing-a-Gamified-Financial-Literacy-Application-19cfbe7117c0805e83ead7ad1e1b37e4",
+            GitHub: "https://github.com/developforgood/the-make-cents-foundation",
+        },
+    ]
+    // Project data
+    const projects = [
+        {
+            id: 1,
             title: "AWS Rekognition",
             image: AWS, 
             shortDescription: "Image analysis tool using AWS",
@@ -44,25 +70,7 @@ const Projects = () => {
             GitHub: "https://github.com/ReinaT5678/AWS-Label-Detector"
         },
         {
-            id: 4,
-            title: "Develop For Good",
-            image: makeCents,
-            shortDescription: "DFG - Make Cents Foundation",
-            fullDescription: "Develop For Good is a nonprofit organization with volunteer students aspiring to create software applications for other nonprofits. This team worked with the Make Cents Foundation, a Georgia-based nonprofit focused on financial literacy for the youth. React Native, Firebase authentication, and data storage were used in this project.",
-            videoLink: "https://developforgood.notion.site/The-Make-Cents-Foundation-Developing-a-Gamified-Financial-Literacy-Application-19cfbe7117c0805e83ead7ad1e1b37e4",
-            GitHub: "https://github.com/developforgood/the-make-cents-foundation",
-        },
-        {
-            id: 5,
-            title: "Food Filter",
-            image: FoodFilter,
-            shortDescription: "Food Filter",
-            fullDescription: "Created a app in a group of 4 to use Gemini AI to produce a simplified version of a recipe website. Usually, a recipe site has a bunch of fluff and extra information. This web application takes the URL, passes it as a prompt into Gemini, and extracts the ingredients, steps, and calculates the nutrients. It also generates a image based on the recipe. We also made a google extension linking to the webpage. I did the Google Extension, assisted with the Gemini AI, styling, and deployment.",
-            videoLink: "https://www.youtube.com/watch?v=_m5MhzQx_dU",
-            GitHub: "https://github.com/abobich675/FoodFilter",
-        },
-        {
-            id: 6,
+            id: 2,
             title: "book-hunt",
             shortDescription: "A book search application",
             fullDescription: "Book Hunt is a Flask-based web application that allows users to search for books, view details, and manage their reading lists. It integrates with the Open Library API to fetch book data and provides a user-friendly interface for book enthusiasts. The application was deployed through Azure App Service and uses Azure SQL Database for data storage.",
