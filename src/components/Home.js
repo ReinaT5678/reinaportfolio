@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import me1 from '../images/me1.jpeg';
 import me2 from '../images/me2.jpeg';
 import me3 from '../images/me3.jpg';
+import HeadAnimation from './Head-Animation';
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
         >
             <div className="home-container">
                 <div className="animation-stage" aria-label="Portrait animation area">
-                    <div className="animation-frame" />
+                    <HeadAnimation className="animation-frame" />
                 </div>
 
                 <div className="welcome">
