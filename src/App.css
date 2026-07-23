@@ -44,14 +44,13 @@ img {
 
 .site-header {
   position: sticky;
-  top: 12px;
   z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: min(1120px, calc(100% - 32px));
   margin: 12px auto 0;
-  padding: 10px 12px 10px 18px;
+  padding: 20px 12px 20px 18px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(254, 250, 224, 0.88);
@@ -70,14 +69,13 @@ img {
 .nav-bar {
   display: flex;
   align-items: center;
-  gap: 4px;
 }
 
 .nav-bar a {
   padding: 10px 12px;
   border-radius: 999px;
   color: var(--matcha-dark);
-  font-size: 0.95rem;
+  font-size: 1.25rem;
   font-weight: 700;
   text-decoration: none;
   transition: background-color 160ms ease, color 160ms ease;
