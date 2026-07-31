@@ -44,7 +44,7 @@ const About = () => {
 
 Check out my YouTube channel below!</p>
             <motion.a 
-                href="https://www.youtube.com/@mikhel782013" 
+                href="https://www.youtube.com/@reinatakahara808" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="youtube-button"

@@ -3,7 +3,7 @@ import React from 'react';
 const Navigation = () => {
     return (
         <header className="site-header">
-            <a href="#home" className="brand-link">Reina</a>
+            <a href="#home" className="brand-link">Reina Takahara</a>
             <nav className="nav-bar" aria-label="Primary navigation">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>

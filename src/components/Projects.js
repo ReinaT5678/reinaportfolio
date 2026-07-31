@@ -5,6 +5,7 @@ import flipImage from '../images/Flip.png';
 import makeCents from '../images/MakeCents.png';
 import AWS from '../images/AWS.png';
 import FoodFilter from '../images/FoodFilter.png';
+import dam from '../images/dam.png';
 
 const collegeProjects = [
     {
@@ -25,6 +26,14 @@ const collegeProjects = [
         videoLink: 'https://www.youtube.com/watch?v=_m5MhzQx_dU',
         github: 'https://github.com/abobich675/FoodFilter',
     },
+    {
+        id: 'dam-robotics',
+        title: 'DAM Robotics',
+        image: dam,
+        shortDescription: 'The robotics club website at Oregon State University',
+        fullDescription: 'Worked with another member of the team to design and develop the website for the DAM Robotics club at Oregon State University. ',
+        videoLink: 'https://osurobotics.club/'
+    }
 ];
 
 const gisProjects = [
