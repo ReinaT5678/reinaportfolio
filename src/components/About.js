@@ -20,7 +20,7 @@ const About = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <h2>My background</h2>
-                    <p>I was born and raised on Oahu, Hawaii and I’m currently a Computer Science major at Oregon State University with a focus in web and app development. As an aspiring full stack developer, I’m also deeply interested in cloud development. I received a cloud computing certification from the University of Maryland and passed the Azure-900 Fundamentals exam. </p>
+                    <p>I was born and raised on Oahu, Hawaii and I graduated from Oregon State University with a degree in Computer Science. I have experience working as a junior software engineer at a startup company, so I'm used to learning quickly and delivering products in a fast-paced environment. I also received a cloud computing certification from the University of Maryland and passed the Azure-900 Fundamentals exam. </p>
                 </motion.div>
 
                 <motion.div
