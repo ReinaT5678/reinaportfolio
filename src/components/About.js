@@ -68,7 +68,7 @@ Check out my YouTube channel below!</p>
                 </motion.a>
 
                 <motion.a 
-                    href="/ReinaResume.pdf" 
+                    href={`${process.env.PUBLIC_URL}/reinasresume.pdf`} 
                     download
                     className="resume-button"
                     whileHover={{ scale: 1.1 }}
