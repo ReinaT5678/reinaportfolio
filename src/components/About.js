@@ -30,7 +30,7 @@ const About = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <h2>My Skills</h2>
-                    <p>I have strong programming skills in JavaScript, TypeScript, HTML, CSS, Python, and SQL. I'm also experienced with various frameworks, with my top three being React, Node.js, and MongoDB. Additionally, I've worked with a range of tools and platforms, including Git, GitHub, Docker, AWS, Figma, JSON, and RESTful APIs.</p>
+                    <p>I have strong programming skills in JavaScript, TypeScript, HTML, CSS, Python, and SQL. I'm also experienced with various frameworks, with my top three being React, Node.js, and MongoDB. Additionally, I've worked with a range of tools and platforms, including Git, GitHub, Docker, AWS, Figma, JSON, and RESTful APIs. Current secret clearance (CV open until 2028). </p>
                 </motion.div>
 
                 <motion.div
