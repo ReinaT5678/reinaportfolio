@@ -21,7 +21,7 @@ const collegeProjects = [
     },
     {
         id: 'food-filter',
-        title: 'Food Filter',
+        title: 'Food Filter (OSU Hackathon)',
         image: FoodFilter,
         shortDescription: 'A simpler, AI-powered way to read online recipes',
         fullDescription: 'Created in a group of four, Food Filter uses Gemini AI to turn a recipe website into a simplified set of ingredients, steps, and calculated nutrients. It also generates an image based on the recipe. I built the Google extension and assisted with the Gemini AI integration, styling, and deployment.',
