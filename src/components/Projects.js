@@ -6,6 +6,8 @@ import makeCents from '../images/MakeCents.png';
 import AWS from '../images/AWS.png';
 import FoodFilter from '../images/FoodFilter.png';
 import dam from '../images/dam.png';
+import bookHunt from '../images/book-hunt.png';
+import oneComm from '../images/one-comm.png';
 
 const collegeProjects = [
     {
@@ -57,6 +59,13 @@ const volunteerProjects = [
         videoLink: 'https://developforgood.notion.site/The-Make-Cents-Foundation-Developing-a-Gamified-Financial-Literacy-Application-19cfbe7117c0805e83ead7ad1e1b37e4',
         github: 'https://github.com/developforgood/the-make-cents-foundation',
     },
+    {
+        id: 'one-community',
+        title: 'One Community',
+        image: oneComm,
+        shortDescription: 'Team management site for a non-profit organization focused on sustainable living.',
+        fullDescription: 'One Community is a web application designed to help non-profit organizations manage their teams and projects more effectively. The app includes features for tracking team member information, managing project timelines, and facilitating communication between team members. Used React and MongoDB.'
+    }
 ];
 
 const sideProjects = [
@@ -72,6 +81,7 @@ const sideProjects = [
     {
         id: 'book-hunt',
         title: 'Book Hunt',
+        image: bookHunt,
         shortDescription: 'A book search and reading-list application',
         fullDescription: 'Book Hunt is a Flask application for searching books, viewing details, and managing reading lists. It uses the Open Library API and was deployed with Azure App Service and Azure SQL Database.',
         videoLink: 'https://www.youtube.com/watch?v=MR5jVeJS-oo',
