@@ -433,7 +433,7 @@ h2 {
 .projects-container {
   width: min(1120px, calc(100% - 32px));
   margin: 0 auto;
-  padding: clamp(70px, 9vw, 112px) 0;
+  padding: clamp(70px, 9vw, 50px) 0;
 }
 
 .about-container > h1,

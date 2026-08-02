@@ -1,13 +1,13 @@
 import React, { useRef, useState } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
-import wanderfulImage from '../images/Wanderful.png';
-import flipImage from '../images/Flip.png';
-import makeCents from '../images/MakeCents.png';
-import AWS from '../images/AWS.png';
-import FoodFilter from '../images/FoodFilter.png';
-import dam from '../images/dam.png';
-import bookHunt from '../images/book-hunt.png';
-import oneComm from '../images/one-comm.png';
+import wanderfulImage from '../images/projects/Wanderful.png';
+import flipImage from '../images/projects/Flip.png';
+import makeCents from '../images/projects/MakeCents.png';
+import AWS from '../images/projects/AWS.png';
+import FoodFilter from '../images/projects/FoodFilter.png';
+import dam from '../images/projects/dam.png';
+import bookHunt from '../images/projects/book-hunt.png';
+import oneComm from '../images/projects/one-comm.png';
 
 const collegeProjects = [
     {
